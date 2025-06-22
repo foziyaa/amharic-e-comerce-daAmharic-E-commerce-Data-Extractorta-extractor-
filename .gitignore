@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Session files
+*.session
+*.session-journal
+
+# Environment
+.env
+venv/
+env/
+
+# IDE specific
+.vscode/
+.idea/
+
+# Data and Models (don't commit large files)
+data/raw/*.csv
+outputs/models/
+# In your .gitignore file
+dataraw/*.csv
+# In your .gitignore file
+dataraw/scraped_telegram_data.csv
+
+# Environment variables
+.env
